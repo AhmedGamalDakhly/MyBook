@@ -1,6 +1,8 @@
 # MyBook
-It's a social media application , it's a clone of facebook 
+It's a social media application , it's a clone of facebook.
 with MyBook users can make posts and comment on them,add friends, chat with friends , join groups ,etc .
+
+The App includes these pages :
 
 ### home page
 
