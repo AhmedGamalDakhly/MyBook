@@ -1,0 +1,185 @@
+
+/****************************** profile-header ******************************/
+.profile-header{
+    background-color: rgba(63, 67, 69, 0.04);
+}
+.cover-setcion {position:relative;width:100%;}
+.cover-setcion img{
+	width:100%;
+	height:500px;
+}
+.cover-setcion .edit-btn{
+	background-color:#F2F2F2;
+	font-size:30px;
+	padding:5px 10px;
+	border-radius:10px;
+	border:1px solid #5a5a5a;
+}
+.cover-setcion  .edit-btn.position{
+	position: absolute;
+   	right:20px;
+	bottom:20px;
+}
+
+.profile-header .profile-tabs .tab{
+    color:white;
+    font-weight:500;
+    font-size:20px;
+    padding:10px 20px;
+}
+.profile-header .profile-tabs .tab:last-child{
+    font-size:25px;
+}
+.profile-header .profile-tabs .tab:hover{
+    background-color: #787878;
+    color:#333;
+}
+
+.profile-header .profile-options{margin-top:10px;}
+.profile-header .profile-options button{
+    border:none;
+    border-radius:7px;
+    font-size:18px;
+    font-weight:600;
+    margin:10px;
+    padding:10px;
+    width: 180px;
+}
+.profile-options .edit-btn{
+	background-color:#D8DADF;
+}
+.profile-options .edit-btn:hover{
+	background-color:#a1a8ae;
+}
+.profile-options .add-story-btn{
+    background-color: #2629df;
+}
+.profile-options .add-story-btn:hover{
+    background-color: #0502ae;
+}
+.profile-options  .profile-info  .wrapper{
+	padding:10px 20px;
+
+}
+
+.profile-info .wrapper .photo{
+	position:relative;
+	bottom:50px;
+}
+.profile-info .wrapper .photo img{
+	width:200px;
+	height:200px;
+	border:5px solid white;
+	border-radius:50%;
+}
+.profile-info  .profile-img-btn{
+	position: absolute;
+   	right:50%;
+	transform:translateX(50%);
+	bottom:-18px;
+	border-radius:15px;
+
+}
+.profile-img-btn i{
+	font-size:25px;
+
+}
+
+/***************************************profile-body*********************************/
+
+.profile-body{padding-top:20px;}
+
+/*******************left-section*******************/
+
+.left-section .intro{
+	background-color:white;
+	padding:20px;
+	border:thin solid #DDD;
+	border-radius:15px;
+	margin-bottom:15px;
+}
+.intro button{
+	width:100%;
+	font-weight:600;
+	margin:10px 0;
+	border-radius:10px;
+	background-color:var(--dark-gray);
+}
+.left-section .photos h4 >a:first-child{
+	color:black;
+}
+.left-section .photos h4 > a:last-child{
+	float:right;
+}
+.left-section .gallery{padding:10px 0;flex-wrap:wrap;}
+.gallery .item{
+	margin:5px;
+	width:110px;
+	max-height:130px;
+	overflow:hidden;
+}
+.gallery .item img{
+	width:110px;
+	height:110px;
+	border-radius:10px;
+}
+
+.left-section .friends h4 >a:first-child{
+	color:black;
+}
+.left-section .friends h4 > a:last-child{
+	float:right;
+}
+
+
+/********************main-section***************************/
+.main-section{
+	height:3000px;
+	margin:auto;
+	align-self:flex-start;
+	}
+.profile-icon{
+	color:blue;
+	border:1px solid gray;
+}
+
+.middle-section {
+    color: white;
+}
+
+
+
+
+
+/*Media Queries*/
+@media screen and (min-width: 768px) {
+	.btn-position{
+		right:40px;
+		bottom:20px;
+		background-color:red;
+	}
+  .logo-link{
+	padding-left:100px;
+}
+
+  }
+  /*medium devices*/
+@media screen and (min-width: 970px) {
+  .logo-link{
+	padding-left:70px;
+}
+
+  }
+@media screen and (min-width: 992px) {
+.left-section{
+	position: sticky;
+	top:-400px;
+	align-self: flex-start;
+
+}
+
+  .logo-link{
+	padding-left:70px;
+}
+
+  }

@@ -1,0 +1,80 @@
+/* The Modal (background) */
+.modal-wrapper{
+  display: none;/* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+  overflow:hidden;
+	}
+.my-modal{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height: 100%;
+}
+
+/* Modal Content/Box */
+.my-modal .modal-content {
+  background-color: #BABFC4;
+  padding: 10px;
+  border: 1px solid #888;
+  text-align:center;
+
+}
+.my-modal .modal-content .photo{
+	width:100%;
+	height:60vh;
+}
+.my-modal .file-upload-wrapper{
+	cursor:pointer;
+	display:flex;
+	justify-content:center;
+	align-items: stretch;
+}
+.my-modal .file-upload-wrapper .upload-btn{
+	display:none;
+}
+.my-modal .file-upload-wrapper .upload-label{
+	font-size:25px;
+	font-weight:700;
+	border:2px solid gray;
+	border-radius:20px;
+	background-color:blue;
+	padding:10px;
+	min-width:100px;
+	margin:5px;
+}
+.my-modal .file-upload-wrapper .upload-label .label-icon{
+	font-size:35px;
+}
+.modal-content .apply-btn{
+	font-size:25px;
+	padding:10px;
+	font-weight:700;
+	border:2px solid gray;
+	border-radius:20px;
+	background-color:green;
+	min-width:100px;
+	margin:5px;
+}
+
+
+
+/* The Close Button */
+.close-modal {
+  color:black;
+  float: right;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}

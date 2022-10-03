@@ -1,0 +1,85 @@
+:root{
+	--light-blue:#F0F2F5;
+	--more-blue:#F0F2F5;
+}
+
+body{
+	overflow-x:hidden;
+	background-color:var(--light-blue);
+}
+
+h4,p{
+	margin:0;
+	padding:0;
+	}
+input{
+	border:none;
+	outline:none;
+}
+
+.main-section{
+	padding-top:90px;
+}
+.friends h1{
+    font-size: 50px;
+}
+h4.head{
+    font-size: 50px;
+    text-align: center;
+
+}
+.friends .cards-group{
+	padding:10px;
+    margin-top:10px;
+    flex-wrap:wrap;
+	box-shadow: 5px 5px 10px 2px rgba(0,0,0,.3);
+	justify-content:center;
+}
+.my-friends{
+    margin-top:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.friends .card-wrapper{
+  border: 2px solid gray;
+  border-radius:20px;
+  padding:10px;
+  margin:10px;
+  width:250px;
+}
+.friends  .card-wrapper .actions button{
+	width:100%;
+	height:40px;
+	margin:5px 0;
+	border:none;
+	border-radius:7px;
+	font-size:15px;
+	font-weight:600;
+}
+.friends  .card-wrapper .actions .add-btn{
+     background-color:#1B74E4;
+     color:white;
+ }
+.card-wrapper .actions .unfriend-btn{
+    background-color: #e45b16;
+    color:white;
+}
+.card-wrapper .actions .unfriend-btn:hover{
+    background-color: #e42614;
+    color:white;
+}
+.card-wrapper .actions .delete-btn{
+	background-color:#D8DADF;
+	color:white;
+}
+.card-wrapper .actions .add-btn:hover{
+	background-color:#1dacf4;
+}
+.card-wrapper .actions .delete-btn:hover{
+	background-color:#a1a8ae;
+}
+.my-friends{
+	margin-top:10px;
+	flex-wrap:wrap;
+	justify-content:center;
+}

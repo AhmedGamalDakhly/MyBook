@@ -1,0 +1,128 @@
+.content{
+    padding-top: 100px;
+}
+.left-section{
+    padding:10px ;
+    color: white;
+}
+.additional-options{
+    padding:10px ;
+    padding-right:40px;
+    position:fixed;
+    top:68px;
+    left:0;
+    max-width:300px;
+}
+.right-section{
+    align-self:flex-start;
+    color: white;
+
+}
+.main-section{
+    align-self:flex-start;
+    color: white;
+
+}
+.groups-page .search-box{
+    position:relative;
+    margin-bottom: 20px;
+}
+
+.groups-page .search-icon{
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+.groups-page .text-field{
+    width:250px;
+    height:40px;
+    padding:5px 5px 5px 35px;
+    border-radius:20px;
+    outline-color:#1877F2;
+    background-color: #292629;
+}
+.groups-page .text-field::placeholder{
+    font-size:18px;
+    color: white;
+
+}
+
+.add-group{
+    background-color:white;
+    border-radius: 20px;
+    padding: 5px;
+    width:250px;
+    display: block;
+}
+.add-group p{
+    font-size:9px;
+    color:black;
+    padding-top:15px;
+    padding-bottom:10px;
+}
+.add-group .plus-icon{
+    font-size:20px;
+    margin: 5px;
+}
+.group-box{
+    background-color: #636b6f;
+    margin: 5px;
+}
+.group-link{
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+}
+.group-link .image{
+    width: 40px;
+    height: 40px;
+    border: solid 1px black;
+}
+.group-link div{
+    padding-left: 8px;
+}
+
+
+.group-cards{
+
+}
+:root {
+    --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+}
+.group-cards .group-card {
+    background: #222;
+    border: 1px solid #1c121f;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+.group-card .card{
+   background-color: #0a0120;
+}
+.group-card .btn {
+    border: 5px solid;
+    border-image-slice: 1;
+    background: var(--gradient) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    border-image-source:  var(--gradient) !important;
+    text-decoration: none;
+    transition: all .4s ease;
+}
+.group-card .card-img{
+    height: 180px;
+}
+.group-card .btn:hover, .btn:focus {
+    background: var(--gradient) !important;
+    -webkit-background-clip: none !important;
+    -webkit-text-fill-color: #fff !important;
+    border: 5px solid #fff !important;
+    box-shadow: #222 1px 0 10px;
+    text-decoration: underline;
+}
+
+.card .card-body{
+    padding:10px;
+}
+.card .card-body .btn{
+    text-align: center;
+}

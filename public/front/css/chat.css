@@ -1,0 +1,91 @@
+.chat-app{
+    padding-top: 210px;
+    height: 100%;
+    overflow: hidden;
+}
+.chat-online {
+    color: #34ce57
+}
+
+.chat-offline {
+    color: #e4606d
+}
+.chat-app h1{
+padding-left:30px;
+    color: black;
+    font-size: 40px;
+
+
+}
+.chat-app .list-group-item{
+    padding: 5px;
+    border-radius: 10px;
+}
+.chat-messages {
+    display: flex;
+    flex-direction: column;
+    max-height: 400px;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.chat-message-left,
+.chat-message-right {
+    display: flex;
+    flex-shrink: 0
+}
+
+.chat-message-left {
+    margin-right: auto
+}
+.message-received{
+    background-color: #1B74E4!important;
+}
+.chat-message-right {
+    flex-direction: row-reverse;
+    margin-left: auto
+}
+form.chat-form {
+    position: absolute;
+    bottom: 5px;
+    background-color: #fff;
+    width: 80%;
+}
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.px-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+.flex-grow-0 {
+    flex-grow: 0!important;
+}
+.border-top {
+    border-top: 1px solid #dee2e6!important;
+}
+
+form.chat-form .text-box{
+    flex-grow: 1;
+    min-height: 60px;
+    border-radius: 20px;
+    padding: 2px 10px;
+}
+form.chat-form .file-upload-wrapper{
+    position: static;
+    margin: 0;
+    transform: none;
+    padding: 0;
+
+}
+form.chat-form .file-upload-wrapper .upload-label{
+    padding: 6px;
+}
+.chat-app .message-image{
+    width: 100px;
+    height: 100px;
+}
+@media screen and (min-width: 768px) {
+    .chat-app{padding-top:90px;}
+}

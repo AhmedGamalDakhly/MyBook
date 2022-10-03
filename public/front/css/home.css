@@ -1,0 +1,230 @@
+.content{padding-top:210px;}
+.section-title{
+    font-size:20px;
+    padding:10px ;
+    font-weight:600;
+    color:gray;
+}
+
+
+/******************  left section *******************************/
+.additional-options{
+	padding:10px ;
+	padding-right:30px;
+    max-width:300px;
+}
+.layout-left{
+    position:fixed;
+    top:68px;
+    left:0;
+}
+
+/******************  right section *******************************/
+
+/* ( contacts and groups )*/
+.right-section{
+	height:300px;
+    padding-top: 20px;
+	}
+.layout-right{
+    max-width:400px;
+    position:fixed;
+    right:0;
+    top:68px;
+}
+
+.text-icon-box{
+	padding:10px;
+}
+
+.text-icon-box .text{
+	font-size:20px;
+	font-weight:bold;
+	color:black;
+	margin:0;
+	padding-right:20px;
+}
+.text-icon-box .icon{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	font-size:20px;
+	color:blue;
+}
+.contacts-box a.more-friends{
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+}
+.advertise{padding-left:15px;}
+.advertise > img{
+	width:140px;
+	height:110px;
+	flex-shrink: 0;
+
+}
+.advertise p{
+	font-size:12px;
+	max-height:90px;
+	padding:5px 10px;
+}
+
+
+/******************************** middle-section ******************************************* */
+/*user profile */
+.middle-section{
+	height:3000px;
+	}
+.stories-section{
+	position:relative;
+}
+.stories-section .story-box{
+	margin:5px;
+    width: 170px;
+    height: 250px;
+	position:relative;
+	box-shadow: 0 8px 5px 0 rgba(0,0,0,0.2);
+	border-radius:20px;
+}
+.story-box .profile-icon{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border:4px solid blue;
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+.story-box .story-image{
+    width:100%;
+    height:210px;
+    z-index:-1;
+    border-radius:20px;
+}
+.story-box .profile-name{
+    font-size:15px;
+    font-weight:bold;
+    color:#555;
+    position:absolute;
+    bottom:5px;
+    left:10px;
+}
+.stories-section .more-btn{
+	font-size:30px;
+	padding:10px;
+	background-color:white;
+	color:#777;
+	border-radius:50%;
+	border:1px solid gray;
+}
+.more-btn.position{
+    position:absolute;
+    right:0;
+    bottom:42%;
+}
+.stories-section .add-story{
+	background-color:white;
+	width:100%;
+	border-radius:0 0 20px 20px;
+	text-align:center;
+	}
+.add-story.position{
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.add-story p{
+	font-size:16px;
+	color:black;
+	font-weight:bold;
+	padding-top:15px;
+	padding-bottom:10px;
+	}
+.add-story .plus-icon{
+	font-size:35px;
+	}
+.plus-icon.position{
+    position:absolute;
+    top:-25px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*user cards*/
+.cards-group{
+	padding:10px;
+	box-shadow: 5px 5px 10px 2px rgba(0,0,0,.3);
+    overflow: hidden;
+}
+.user-card{
+	height:330px;
+	min-width:250px;
+	margin:7px;
+	overflow:hidden;
+	border-radius:20px;
+	box-shadow: 0 8px 5px 5px rgba(0,0,0,0.5);
+
+}
+.user-card .body{
+	padding:8px 10px;
+}
+.user-card .image{
+	width:100%;
+	height:180px;
+}
+.user-card .body .name{
+   font-size: 26px;
+    font-weight: 700;
+    padding: 10px auto;
+}
+.user-card .body .meta-data p{
+    font-size: 21px;
+    font-weight: 100;
+}
+.user-card .actions button{
+	width:100%;
+	height:40px;
+	margin:5px 0;
+	border:none;
+	border-radius:7px;
+	font-size:15px;
+	font-weight:600;
+}
+.user-card .actions .add-btn{
+	background-color:#1B74E4;
+	color:white;
+}
+.user-card .actions .delete-btn{
+	background-color:#D8DADF;
+}
+.user-card .actions .add-btn:hover{
+	background-color:#1A6ED8;
+}
+.user-card .actions .delete-btn:hover{
+	background-color:#a1a8ae;
+}
+
+
+
+
+/*Media Queries*/
+@media screen and (min-width: 768px) {
+  .logo-link{
+	padding-left:100px;
+}
+    .content{padding-top:90px;}
+
+}
+@media screen and (min-width: 990px) {
+
+  .logo-link{
+	padding-left:70px;
+}
+
+}

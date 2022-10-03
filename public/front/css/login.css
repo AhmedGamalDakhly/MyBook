@@ -1,0 +1,133 @@
+
+body{background-color:#F0F2F5; overflow-x:hidden;}
+
+.content{
+    padding :130px 30px;
+}
+.patron-section {
+    height:100%;
+    padding-bottom:20px;
+    padding-left:50px;
+	padding-top:100px ;
+	}
+.patron-section > h1{
+	color:#1877F2;
+	font-size:3rem;
+	padding-left:3px;
+	font-weight:bold;
+	width:80%;
+	margin:auto;
+	}
+.patron-section p{
+    padding:5px auto;
+	color:black;
+	font-size:1.5rem;
+	font-weight:100;
+	width:80%;
+	margin:auto;
+	}
+
+
+.login-section{
+	padding:10px;
+	}
+form.login-form{
+	padding:30px;
+	background-color:white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	border-radius:10px;
+
+}
+
+form.login-form .text-field{
+	width:350px;
+	height:50px;
+	padding:15px;
+	margin:8px;
+	border-radius:8px;
+	outline-color:#1877F2;
+	border:1px solid gray;
+
+}
+form.login-form .text-field::placeholder {
+  color: gray;
+  font-size:17px;
+  opacity: 1;
+}
+form.login-form .button{
+	width:350px;
+	height:50px;
+	padding:10px;
+	line-height:20px;
+	margin:8px;
+	border-radius:8px;
+	border:none;
+}
+
+form.login-form .login-btn{
+	background-color:#1877F2;
+	color:white;
+	font-weight:720;
+	font-size:22px;
+}
+form.login-form .login-btn:hover{
+	background-color:#166FE5;
+	color:white;
+
+}
+form.login-form .new-account-btn{
+	background-color:#36A420;
+	width:auto;
+	color:white;
+	font-weight:720;
+	font-size:18px;
+}
+form.login-form .new-account-btn:hover{
+	background-color:#308e1b;
+	color:white;
+
+
+}
+.password-reset{padding:5px; font-weight:10; font-size:16px;}
+hr{
+	width:90%;
+    height:3px;
+    border: 0;
+    border-top: 1px solid #ccc;
+	margin:10px auto;
+}
+p.business-page{
+	padding:20px 10px;
+	font-size:16px;
+}
+.business-page > a{
+	font-weight:700;
+	color:black;
+ }
+
+.translate-links{
+	list-style:none;
+	text-align:center;
+}
+li.translate-link{
+display:inline-block;
+}
+li.translate-link > a{
+	padding:5px;
+	color:gray;
+	font-size:15px;
+}
+.copyright{
+	text-align:center;
+	color:gray;
+	font-size:15px;
+}
+@media screen and (max-width: 990px) {
+	content{
+	padding :0px 30px;
+	}
+	.patron-section {
+	padding-top:40px ;
+	}
+
+}

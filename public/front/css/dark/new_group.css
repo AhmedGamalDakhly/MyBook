@@ -1,0 +1,147 @@
+.content{
+    padding-top: 210px;
+}
+.left-section{
+    padding:10px ;
+    padding-right:20px;
+}
+.additional-options{
+    padding:10px ;
+    padding-right:30px;
+    position:fixed;
+    top:68px;
+    left:0;
+    max-width:300px;
+}
+.right-section{
+    align-self:flex-start;
+    height:3000px;
+    background-color: red;
+}
+.main-section{
+    height:3000px;
+    align-self:flex-start;
+}
+.groups-page .search-box{
+    position:relative;
+    margin: 20px 5px;
+}
+
+.groups-page .search-icon{
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+.groups-page .text-field{
+    width:250px;
+    height:40px;
+    padding:5px 5px 5px 35px;
+    border-radius:20px;
+    outline-color:#1877F2;
+    background-color: #c8aff2;
+}
+.groups-page .text-field::placeholder{
+    font-size:18px;
+}
+
+ .add-group{
+    position:relative;
+     left: 0;
+     top: 0;
+    min-height: 20px;
+    background-color:white;
+     border-radius: 20px;
+     padding: 7px;
+}
+.add-group p{
+    font-size:9px;
+    color:black;
+    padding-top:15px;
+    padding-bottom:10px;
+}
+.add-group .plus-icon{
+    font-size:20px;
+    margin: 5px;
+}
+.group-link{
+    padding: 10px;
+    margin: 5px;
+    background-color: #636b6f;
+}
+.group-link .image{
+    width: 40px;
+    height: 40px;
+    border: solid 1px black;
+}
+.group-link div{
+    padding-left: 8px;
+}
+
+
+.group-cards{
+
+}
+:root {
+    --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+}
+.group-cards .group-card {
+    background: #222;
+    border: 1px solid #dd2476;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.group-card .btn {
+    border: 5px solid;
+    border-image-slice: 1;
+    background: var(--gradient) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    border-image-source:  var(--gradient) !important;
+    text-decoration: none;
+    transition: all .4s ease;
+}
+.group-card .card-img{
+    height: 220px;
+}
+.group-card .btn:hover, .btn:focus {
+    background: var(--gradient) !important;
+    -webkit-text-fill-color: #fff !important;
+    border: 5px solid #fff !important;
+    box-shadow: #222 1px 0 10px;
+    text-decoration: underline;
+}
+
+form.create-group .group-privacy{
+    margin: 5px auto;
+
+}
+form.create-group {
+
+}
+form.create-group > .text-field{
+    width: 300px;
+    height: 60px;
+    margin: 5px auto;
+}
+.create-btn{
+    width: 300px;
+    height: 60px;
+    margin: 5px auto;
+    background-color: #2e1b10;
+    color: white;
+    font-weight: bold;
+}
+.group-preview{
+    padding: 20px;
+}
+.group-preview .group-cover{
+    width: 100%;
+    height: 600px;
+}
+@media screen and (max-width: 990px) {
+
+    .content{
+        padding-top:90px ;
+    }
+}

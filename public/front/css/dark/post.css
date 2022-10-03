@@ -1,0 +1,258 @@
+
+/*Content Form */
+.new-post-section{
+    margin-top:20px;
+    padding:20px;
+    box-shadow: 0 8px 5px 0 rgba(0,0,0,0.2);
+    border:1px solid #DDD;
+    border-radius:10px;
+    position: relative;
+}
+.new-post-section .upload-label:hover{
+    background-color:#D4E6E9;
+}
+.new-post-section input:hover{
+    background-color:#D4E6E9;
+}
+.new-post-section  .post-btn{
+    font-size: 16px;
+    border:2px solid gray;
+    border-radius:20px;
+    background-color:blue;
+    color:white;
+    padding:10px;
+    margin:5px;
+
+}
+.new-post-section  .post-btn:hover{
+    background-color: #1198F5;
+}
+.new-post-section .post-inputs {
+    position:relative;
+}
+.new-post-section .post-text{
+    min-height:120px;
+    flex-grow: 1;
+    margin-left:8px;
+    padding:10px;
+}
+.new-post-section  .add-media .text_icon-box{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    padding:10px 5px;
+}
+.add-media  .text_icon-box .text{
+    display:flex;
+    align-self:center;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+    margin:0;
+    padding-right:20px;
+}
+.add-media  .text_icon-box .icon{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    font-size:20px;
+    color:blue;
+}
+
+
+.post-box{
+    box-shadow: 0 8px 5px 0 rgba(0,0,0,0.2);
+    border:1px solid #DDD;
+    border-radius:10px;
+    margin-top:10px;
+}
+.post-header{padding:10px 20px;}
+.post-header > div{float:left;}
+.post-header .profile-image{
+    border:2px solid white;
+    margin-right:15px;
+}
+.post-header .menu {float:right;
+}
+.post-header .delete-post:hover {
+ color: red;
+}
+.post-box .post-body{
+    padding:5px 20px;
+}
+.post-body .text{padding:10px;}
+.post-body .media{
+    width:100%;
+    border:1px solid #DDD;
+}
+.post-body .media img{
+    width:100%;
+    max-height:400px;}
+.post-footer{ background-color: rgba(31, 25, 22, 0.36);}
+.post-footer hr{margin:0;}
+.post-footer .post-actions{	padding:5px;}
+.post-actions .icon{
+    color:white;
+    font-size:22px;
+    text-align:center;
+    background-color:transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #333;
+
+}
+.post-actions .text{
+    color:gray;
+    font-size:15px;
+
+
+
+}
+.post-actions .image_text-link{
+    padding:2px;
+    border-radius:10px;
+}
+.post-actions .image_text-link:hover i{
+    color:#555;
+}
+.post-actions .image_text-link:hover p{
+    color:#555;
+}
+.post-actions .image_text-link:hover{
+    background-color:#DDDDDD;
+
+}
+.post-footer .post-meta {padding:5px 0px;
+}
+.post-meta a:first-child{float:left; padding-left: 35px;}
+.post-meta a{
+    float:right;
+    padding:5px;
+    color: white;
+    font-weight:300;
+    font-size:15px;
+    min-height: 20px;
+}
+
+.post-comments{
+    padding:10px;
+    background-color: rgba(31, 25, 22, 0.36);
+}
+.post-comments .comment-inputs {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    position:relative;
+}
+.post-comments .comment-text{
+    height:80px;
+    flex-grow: 1;
+    margin-left:8px;
+    padding:10px;
+}
+.new-comment .profile-icon{
+    color:blue;
+    border:2px solid white;
+}
+
+form.new-comment{
+    padding:8px;
+}
+form.new-comment a{
+    margin:10px;
+}
+form.new-comment .options{
+    flex:1;
+    position:relative;
+}
+form.new-comment input{
+    background-color:#E4E6EB;
+    height:auto;
+    width:100%;
+    border-radius:20px;
+    padding:10px;
+}
+form.new-comment .upload-label{
+    padding: 0px;
+    background-color: #E3E5E8;
+    border: none;
+
+}
+form.new-comment .label-icon{
+font-size: 10px;
+}
+.icons-group {
+    position:absolute;
+    position: absolute;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    transform: translate(0, -50%);
+    right:20px;
+}
+.icons-group .icon-small{
+    font-size:20px;
+    line-height:20px;
+    color:black;
+    padding:5px;
+}
+.post-comments .comment{
+    align-items:flex-start;
+}
+.post-comments .comment .comment-img{
+    width: 100px;
+    height: 100px;
+}
+.comment .image_text-link{padding-top:0;}
+.comment .body{
+    padding:0 10px 10px 10px;
+}
+.comment-actions .text{
+    padding:5px;
+    color:gray;
+}
+.comment-actions .text:hover{
+    color: #1d0f67;
+}
+.comment-actions .text.time{
+    padding:5px;
+    font-size:15px;
+    color:gray;
+}
+.comment .menu {}
+.comment .menu .icon{
+    padding:0 5px;
+    margin-right: 10px;
+    font-size:15px;
+}
+.comment  a{
+     color: #1A6ED8;
+ }
+.comment .body p{
+    color: black;
+}
+.comment .comment-reply{
+
+}
+.comment .comment-img{
+    width: 100px;
+    height: 100px;
+}
+.liked{
+    color: blue;
+}
+a.liked .icon{
+    color: blue;
+}
+a.liked .text{
+    color: blue;
+}
+.replys .new-comment{
+    min-width: 700px;
+}
+.shared-post{
+    border: solid 2px #b2a9ae;
+    border-radius: 15px;
+    margin: 7px ;
+}
+
+

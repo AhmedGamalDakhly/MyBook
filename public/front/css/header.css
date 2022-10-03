@@ -1,0 +1,111 @@
+
+/* header styles */
+header{
+    z-index:10;
+    background-color:white;
+    width:100%;
+    box-shadow: 0 8px 5px 0 rgba(0,0,0,0.2);
+}
+header.position{
+    position:fixed;
+    top: 0;
+}
+
+header .logo-search .logo-link{
+    line-height:5px;
+    padding:5px;
+    font-size:16px;
+}
+.logo-search .search-box{
+    position:relative;
+}
+.search-box .search-icon{
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+.search-box .text-field{
+    width:250px;
+    height:40px;
+    padding:5px 5px 5px 35px;
+    border-radius:20px;
+    outline-color:#1877F2;
+    background-color:var(--light-blue);;
+}
+.search-box .text-field::placeholder{
+    font-size:18px;
+}
+
+
+header .tabs{
+    display:flex;
+    align-items: stretch;
+}
+header  .tabs > a{
+    color:white;
+    flex-grow: 1;
+    text-align:center;
+    border-radius:15px;
+    padding-top:15px;
+}
+header  .tabs > a:hover{
+    background-color:var(--light-blue);;
+}
+.tabs .rect-icon{
+    font-size:30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #333;
+}
+.tabs .rect-icon:hover{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+
+}
+.options  .chat-msg{
+   position: relative;
+}
+.options  sup.msg-bell{
+    color: red;
+    position: absolute;
+    top: -5px;
+}
+.options  sup.msg-bell i{
+    font-size: 20px;
+}
+header .options{
+     padding:10px;
+     display:flex;
+     justify-content:space-around;
+ }
+header .image_text-link{
+    text-align: center;
+}
+header .options .option{
+    font-size:25px;
+    color:black;
+    border-radius:50%;
+    background-color:#DDD;
+    padding:8px;
+}
+header .options  .option:hover{
+    font-size:25px;
+    color:black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #333;
+}
+.options  .notification-bell sup{
+    color: red;
+    display: block;
+    transform: translate(27px,-16px);
+}
+
+
+/*end header styles */
+
+
+@media screen and (max-width: 768px) {
+    header{
+        position:sticky;
+        top: -120px;
+    }
+}
